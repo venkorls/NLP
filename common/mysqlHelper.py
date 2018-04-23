@@ -5,6 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base=declarative_base()
 
 class Zs_extractInfo(Base):
+    """招商大数据抽取信息的存储表"""
     #表名
     __tablename__='zs_extractInfo'
     #表的结构
